@@ -1,0 +1,38 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+    height: 3rem;
+    width: 100%;
+}
+li {
+    text-align: center;
+    color: aqua;
+    margin: auto;
+    list-style-type: none;
+}
+a{
+    color: aqua;
+    text-decoration:none; 
+}
+a:hover {
+   color: aquamarine;
+   font-weight: bold;
+}
+.navActive{
+    color: aqua;
+    font-weight: bold;
+}
+@media (max-width: 1000px){
+    nav {
+        font-size: 0.6rem;
+        
+    }
+ }
+ @media (max-width: 500px){
+    nav {
+        font-size: 0.5rem;
+        
+    }
+ }

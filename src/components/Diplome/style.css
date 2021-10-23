@@ -1,0 +1,32 @@
+.vidiplome {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin: 0 10%;
+}
+
+.vignet-Diplome{
+    width: 35%;
+    margin: 0 5% 5% 8%;
+    text-align: center;
+    background-color: darkgrey ;
+    border-radius: 5px;
+    border: cyan 1px;
+}
+
+@media (max-width: 1000px){
+    .h2-diplome{
+        font-size: 0.7rem;
+        /* size: 10rem; */
+    }
+    .h3-diplome{
+        font-size: 0.6rem;
+    }
+    .h4-diplome {
+        font-size: 0.6rem;
+    }
+    p{
+        font-size: 0.5rem;
+    }
+    
+ }
